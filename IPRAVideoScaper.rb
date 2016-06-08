@@ -1,6 +1,6 @@
 require 'video_info'
 
-VideoInfo.provider_api_keys = { vimeo: 'a4268064c180defed88340bec4dc6212' }
+VideoInfo.provider_api_keys = { vimeo: 'API KEY' }
 video=VideoInfo.new("https://vimeo.com/165083121")
 
 print video.video_id, "\n"
